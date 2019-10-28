@@ -13,5 +13,13 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcjbradley/personal_site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrcjbradley/personal_site/issues"
+  },
+  "homepage": "https://github.com/mrcjbradley/personal_site#readme"
 }
