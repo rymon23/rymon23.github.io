@@ -1299,6 +1299,8 @@ ul.actions {
   cursor: default;
   list-style: none;
   margin-left: -1em;
+  margin-bottom: 0px;
+
   padding-left: 0; }
   ul.actions li {
     padding: 0 0 0 1em;
