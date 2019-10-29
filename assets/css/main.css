@@ -1300,8 +1300,8 @@ ul.actions {
   list-style: none;
   margin-left: -1em;
   margin-bottom: 0px;
-
   padding-left: 0; }
+
   ul.actions li {
     padding: 0 0 0 1em;
     vertical-align: middle; }
@@ -1340,6 +1340,7 @@ ul.actions {
         width: 100%; }
     ul.actions.fit.stacked {
       width: 100%; }
+    
 
 /* Icons */
 ul.icons {
@@ -2145,7 +2146,6 @@ button,
     margin: 0 0 2em 4em;
     width: 50%; }
     #banner .image img {
-      height: 100%;
       -moz-object-fit: cover;
       -webkit-object-fit: cover;
       -ms-object-fit: cover;
@@ -2154,7 +2154,12 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 100%; }
+      width: 100%; 
+      height: 100%;
+      border-radius: 100%;
+      max-width: 410px;
+      max-height: 397px;
+    }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
