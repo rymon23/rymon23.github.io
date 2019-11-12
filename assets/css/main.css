@@ -1360,18 +1360,33 @@ ul.actions {
 
 /* Icons */
 ul.icons {
+  display: flex;
+  justify-content: flex-end;
+
   cursor: default;
   list-style: none;
   padding-left: 0; }
   ul.icons li {
-    display: inline-block;
-    padding: 0 1em 0 0; }
+    display: flex;
+    align-items: center;
+
+    /* display: inline-block; */
+    padding: 0 1em 0 0; 
+  }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon {
       color: inherit; }
       ul.icons li .icon:before {
         font-size: 1.25em; }
+
+.icon-nexus-mods img{
+  border-radius: 0.375em;
+  display: block;
+  width: 17px;
+  				cursor: pointer;
+
+}
 
 /* Contact */
 ul.contact {
