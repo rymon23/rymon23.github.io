@@ -1009,8 +1009,8 @@ section.special, article.special {
   text-align: center; }
 
 header .my-professional-title {
-  font-family: "Roboto Slab", serif;
-  font-size: 1em;
+  font-family: sans-serif,"Roboto Slab", serif;
+  font-size: 1.025em;
   font-weight: 400;
   letter-spacing: 0.075em;
   margin-top: -0.5em;
